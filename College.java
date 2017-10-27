@@ -20,13 +20,13 @@ class Student
 		System.out.println("Enter the name of the student \n");
 		Scanner input=new Scanner(System.in);
 		s_name=input.next();
+		
 		System.out.println("Enter the usn \n");
 		Scanner input1=new Scanner(System.in);
 		usn=input1.next();
 		System.out.println("Enter the course you want \n");
 		Scanner input2=new Scanner(System.in);
 		course=input2.next();
-			
 	}
 }
 class Faculty
