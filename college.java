@@ -1,11 +1,18 @@
+package yyy;
+import java.util.Scanner;
 
 public class college {
-public String collegename ="RIT";
-
-public String getName(){
-	return collegename;
-}
-
-
+	String colname;
+	department dep1 = new department();
+	
+	public void getcollegeinfo()
+	{
+		System.out.println("enter the college name: ");
+		Scanner input=new Scanner(System.in);
+		colname=input.next();
+		dep1.display();
+		System.out.println("\n college has department:" + dep1.depname);
+	    
+	}
 
 }

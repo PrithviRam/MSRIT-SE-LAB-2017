@@ -1,17 +1,19 @@
+package yyy;
+import java.util.Scanner;
+public class main {
 
- class main {
-public static void main(String args[]){
 	
-	student stu =new student();
+	public static void main(String[] args) 
+	{
+	college a1=new college();
+	course b1=new course();
+	System.out.println("perform the course registration \n");
+	a1.getcollegeinfo();
+	b1.register();
+	System.out.println("\n registration successfull \n");
+	System.out.println ("\n thank u \n");
+	
 
-	college coll = new college();
-	
-	
-		String st=  coll.getName();
-	
-	System.out.println("college name is:" +st);
-	System.out.println("StudentNmae is:"+ stu);
-	
-	
-}
+	}
+
 }
