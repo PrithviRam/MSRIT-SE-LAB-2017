@@ -1,19 +1,18 @@
-package yyy;
-import java.util.Scanner;
+package institute;
+import java.util.*;
+
+
+
+
+
 public class main {
-
-	
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
-	college a1=new college();
-	course b1=new course();
-	System.out.println("perform the course registration \n");
-	a1.getcollegeinfo();
-	b1.register();
-	System.out.println("\n registration successfull \n");
-	System.out.println ("\n thank u \n");
-	
-
-	}
-
+		college c = new college();
+		course c1 = new course();
+		System.out.println(" WELCOME TO STUDENT REGISTRATION \n");
+	    c.display();
+	    c1.display();
+	}   
+	    
 }

@@ -1,15 +1,16 @@
-package yyy;
-import java.util.Scanner;
+package institute;
+import java.util.*;
+
+
+
 
 public class faculty {
-	public String facname;
-	public void allocate()
+	String facultyname;
+	String facultyid;
+	void display()
 	{
-		System.out.println("enter the faculty name: "); 
-		Scanner input= new Scanner(System.in);
-	    facname= input.next();
-	    
-	
+		System.out.println("the courses are taught by faculty");
+		
 	}
 
 }
